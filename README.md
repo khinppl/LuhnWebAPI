@@ -3,9 +3,10 @@ This API validates credit card numbers using the Luhn algorithm.
 
 **Endpoints**
 
-Validate Credit Card
 
-**GET** /api/CreditCard/validatecardnumber
+Validate Credit Card
+    
+    **GET** /api/CreditCard/validatecardnumber
 
 **Validation Rules**
 The cardNumber must be:
@@ -25,6 +26,6 @@ The cardNumber must be:
     "http://localhost:5000/api/CreditCard/validatecardnumber?cardNumber=4532015112830366"
 
 **Response**
-
-Success: 200 with Validation result Error: 400 Bad Request
+    
+    Success: 200 with Validation result Error: 400 Bad Request
 
